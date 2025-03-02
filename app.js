@@ -104,9 +104,9 @@ app.listen(8080 , () => {
     console.log("API req's Listening started at port 8080");
 });
 
-// app.get("/", (req , res) => {
-//     res.send("get req came to root path");
-// });
+app.get("/", (req , res) => {
+    res.redirect("/listings");
+});
 
 // app.get("/demouser", async (req, res) => {
 

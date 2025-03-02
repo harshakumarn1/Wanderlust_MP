@@ -1,7 +1,7 @@
 <% layout("/layouts/boilerplate") %>
 <body>
     <!-- <h3 class="indexh3">All Listings</h3> -->
-    <div class="row row-cols-md-3 row-cols-sm-2">
+    <div class="row row-cols-md-3 row-cols-sm-2 index-div">
         <% for(listing of allListings){ %>
             <a href="/listings/<%= listing._id %>" class="card-link">
             <div class="card">

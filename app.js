@@ -20,6 +20,7 @@ const reviews = require("./routes/review.js");
 const users = require('./routes/user.js');
 
 const mongoAtlasDBurl = `${process.env.MONGO_ATLAS_DB_URL}`;
+// const mongoDBurl = "mongodb://127.0.0.1:27017";
 
 const mongoose = require('mongoose');
 async function main(){

@@ -7,6 +7,11 @@ font-family: "Plus Jakarta Sans", serif  !important;
 }
 
 /* index page */
+
+.index-div {
+    margin-left: 1rem !important;
+    padding-top: 0.5rem !important;
+}
 .navbar {
     background-color: white !important;
     height: 4rem;

@@ -1,0 +1,211 @@
+body {
+font-family: "Plus Jakarta Sans", serif  !important;
+}
+
+.body {
+    margin-top: 0.5rem;
+}
+
+/* index page */
+.navbar {
+    background-color: white !important;
+    height: 4rem;
+}
+
+.indexh3 {
+    padding: 0.5rem 0.8rem;
+}
+
+.fa-compass {
+    color:#ff1493;
+    font-size: 2rem;
+}
+
+.f-info {
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-brand {
+    width: 100%;
+    text-align: center;
+    height: 2rem;
+}
+
+.f-info-socials i {
+    padding: 0 0.5rem;
+}
+
+.l-d {
+    width: 45rem !important;
+}
+
+.m input {
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    border-radius: 20px !important;
+    border-style:  solid !important;
+    border-width: 1px !important;
+}
+
+.m button {
+    border-radius: 15px;
+    padding: 0 1rem;
+    background-color: #ff1493;
+    color: white;
+}
+.m button:hover {
+    cursor: pointer;
+    background-color: #ff1493;
+    color: white;
+}
+
+.m button i {
+    display: inline;
+}
+
+
+/* card */
+
+.card {
+    width: 20rem !important;
+    border: none !important;
+    margin-bottom: 2rem !important;
+}
+
+.card-img-top {
+    border-radius: 5% !important;
+    width: 23rem !important;
+}
+.card-img-top:hover {
+    background-color: white;
+    opacity: 0.8;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+/* new listing page */
+.newh3 {
+    padding: 1rem 0;
+}
+
+.newdiv {
+    margin-left: 1rem !important;
+}
+
+/* input[id="country"]{
+    display: inline-block;
+} */
+
+.col-4,.col-8 {
+    display: flex !important;
+    width: 50% !important;   
+    
+}
+
+label[class="form-label"]{
+    padding-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+/* edit page */
+
+.edit-h3 {
+    padding: 1rem;
+}
+.edit-div {
+    margin-left: 1rem;
+}
+
+/* show page */
+
+.show-a {
+    text-decoration: none;
+    color: white;
+}
+
+.show-h3 {
+    margin-left: 1rem;
+    padding: 1rem 0;
+}
+
+.show-div {
+    margin-left: 1rem;
+}
+
+.show-div .card-body {
+    padding-left: 0 !important;
+    width: 60rem !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+.show-div .card-text {
+    line-height: 2.5rem !important;
+    width: 50rem !important;
+}
+
+.btn-div {
+   display: flex;
+}
+
+.show-div .btn-danger {
+    margin-left: 3rem;
+}
+
+.show-div .card-img-top {
+    width: 30rem !important;
+}
+
+.fa-star {
+    font-size: 1.6rem !important;
+    color: goldenrod !important;
+    /* margin-bottom: 0.2rem !important; */
+}
+
+.show-div .review {
+    border: #868686 solid 1px;
+    margin: 1rem 1rem;
+    border-radius: 10px;
+}
+
+/* error page */
+.err {
+    height: 72vh;
+}
+
+.errh4 {
+    text-align: center !important;
+}
+
+/* alert */
+div[role = "alert"]{
+    margin-bottom: 0 !important;
+}
+
+/* signup page */
+.sign-up {
+    height: 69vh !important;
+}
+
+/* login page */
+
+.login{
+    height: 69vh;
+
+}
+
+/* Map */
+#map {
+    height: 400px;
+    width: 600px;
+}

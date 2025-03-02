@@ -1,0 +1,77 @@
+
+<% if(nlsuccess && nlsuccess.length) { %>
+<div class="alert alert-success alert-dismissible fade show col-3 offset-4" role="alert">
+    <%= nlsuccess %>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+<% } %>
+
+<% if (nldelete && nldelete.length) { %>
+    <div class="alert alert-danger alert-dismissible fade show col-3 offset-4" role="alert">
+        <%= nldelete %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+
+<% if (reviewsuccess && reviewsuccess.length) { %>
+    <div class="alert alert-success alert-dismissible fade show col-3 offset-4" role="alert">
+        <%= reviewsuccess %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+
+<% if (reviewdelete && reviewdelete.length) { %>
+    <div class="alert alert-danger alert-dismissible fade show col-3 offset-4" role="alert">
+        <%= reviewdelete %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+
+<% if (registerSuccess && registerSuccess.length) { %>
+    <div class="alert alert-success alert-dismissible fade show col-3 offset-4" role="alert">
+        <%= registerSuccess %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+
+<% if (signupError && signupError.length) { %>
+    <div class="alert alert-danger alert-dismissible fade show col-5 offset-4" role="alert">
+        <%= signupError %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+ 
+<% if (loginSuccess && loginSuccess.length) { %>
+    <div class="alert alert-success alert-dismissible fade show col-3 offset-4" role="alert">
+        <%= loginSuccess %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+
+<% if (error && error.length) { %>
+    <div class="alert alert-danger alert-dismissible fade show col-4 offset-3" role="alert">
+        <%= error %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+ 
+<% if (logout && logout.length) { %>
+    <div class="alert alert-danger alert-dismissible fade show col-3 offset-4" role="alert">
+        <%= logout %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+
+<% if (wrongOwner && wrongOwner.length) { %>
+    <div class="alert alert-danger alert-dismissible fade show col-4 offset-3" role="alert">
+        <%= wrongOwner %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+ 
+<% if (reviewDelete && reviewDelete.length) { %>
+    <div class="alert alert-danger alert-dismissible fade show col-4 offset-3" role="alert">
+        <%= reviewDelete %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>

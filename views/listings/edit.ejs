@@ -1,0 +1,57 @@
+<% layout("/layouts/boilerplate") %>
+
+<body>
+
+ <h3 class="edit-h3">Edit your Listing:</h3>
+
+ <div class="edit-div">
+
+    <form method="POST" action="/listings/<%= listing._id %>?_method=PUT" novalidate class="needs-validation" enctype="multipart/form-data">
+
+     <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" name="listing[title]" value="<%= listing.title %>" id="title" class="form-control" required>
+        <div class="invalid-feedback">enter valid title</div>
+      </div>
+
+     <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <input type="text" name="listing[description]" value="<%= listing.description %>" id="description" class="form-control" required>
+        <div class="invalid-feedback">enter valid description</div>
+      </div>
+    
+     <div class="mb-3">
+        <label for="price" class="form-label">price</label>
+        <input type="text" name="listing[price]" value="<%= listing.price %>" id="price" class="form-control" required> 
+        <div class="invalid-feedback">enter valid price</div>
+      </div> 
+
+      <div>Original Image <br>
+         <img src="<%= manipulatedImg %>">
+      </div>
+     
+     <div class="mb-3">
+        <label for="img" class="form-label">Upload Image</label>
+        <input type="file" name="listing[img]" id="img" class="form-control"> 
+        <div class="invalid-feedback">upload valid image</div>
+      </div> 
+     
+     <div class="mb-3">
+        <label for="location" class="form-label">Location</label>
+        <input type="text" name="listing[location]" value="<%= listing.location %>" id="location" class="form-control" required> 
+        <div class="invalid-feedback">enter valid location</div>
+      </div> 
+     
+     <div class="mb-3">
+        <label for="country" class="form-label">Country</label>
+        <input type="text" name="listing[country]" value="<%= listing.country %>" id="country" class="form-control" required> 
+        <div class="invalid-feedback">enter valid countryname</div>
+      </div> 
+
+     <button type="submit" class="btn btn-success">Update</button>
+
+    </form>
+
+ </div>
+
+</body>

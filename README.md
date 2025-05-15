@@ -1,4 +1,4 @@
-# -> Created a Website in Which Clients can
+ Created a Website in Which Clients can
  view different Vacation Places posted across
  the countries and check for booking
  availability.-> Clients can also Add their Property details
